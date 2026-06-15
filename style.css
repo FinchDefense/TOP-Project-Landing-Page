@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #1F2937;
+    height: 250px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    font: roboto;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(188, 186, 186);
+}
