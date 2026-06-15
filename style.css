@@ -13,6 +13,7 @@
 .header-logo {
     color: #F9FAF8;
     font-weight: 900;
+    font-size: 24px;
 }
 
 .nav-links {
@@ -32,7 +33,10 @@
 }
 
 .hero-content {
+    display: flex;
     flex-direction: column;
+    width: 450px;
+    align-items: flex-start;
 }
 
 .hero-main-text {
@@ -47,4 +51,13 @@
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
+}
+
+.btn1 {
+    background-color: #3882F6;
+    margin-top: 20px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 8px;
 }
