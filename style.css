@@ -1,11 +1,13 @@
 .navbar {
     background-color: #1F2937;
-    height: 250px;
+    min-height: 400px;
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0 150px;
-    font: roboto;
+    font-family: 'Roboto', sans-serif;
+    align-content: flex-start;
 }
 
 .header-logo {
@@ -22,4 +24,27 @@
 .nav-links a {
     text-decoration: none;
     color: rgb(188, 186, 186);
+}
+
+.break {
+    width: 100%;
+    height: 0;
+}
+
+.hero-content {
+    flex-direction: column;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
 }
