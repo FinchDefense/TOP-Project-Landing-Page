@@ -84,10 +84,58 @@ body {
 .wallpaper {
     display: flex;
     margin-top: 60px;          
-    margin-left: 80px;        
+    margin-left: 80px;    
 }
 
 .wallpaper img {
     border-radius: 8px;      
     object-fit: cover;
 }
+
+
+.main1 {
+    background-color: #F9FAF8;
+    min-height: 500px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main1-title {
+    font-size: 36px;
+    color: #9f1c23;
+    font-weight: 900;
+    padding: 30px 0;
+}
+
+.main1-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.main1-text {
+    display: flex;
+    font-size: 18px;
+    color: #000000;
+
+    width: 400px;
+    height: auto;
+}
+
+.main1-bundle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main1-text {
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
