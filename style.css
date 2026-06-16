@@ -1,3 +1,5 @@
+@import url('https://googleapis.com');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -137,5 +139,34 @@ body {
 .main1-text {
     font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.main2 {
+    background-color: #E5E7EB;
+    min-height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote-bundle {
+    padding: 100px 150px;
+}
+
+.quote-content {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    margin-left: 800px;
+}
+
+
+
 
 
